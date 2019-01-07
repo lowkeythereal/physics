@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:accessibilityHeading="true"
+    android:background="@android:color/holo_red_dark"
+    android:theme="@android:style/Widget.Holo.EditText"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <CheckBox
+            android:id="@+id/Force"
+            android:layout_width="180dp"
+            android:layout_height="32dp"
+            android:buttonTint="@color/text"
+            android:onClick="onCheckboxClicked"
+            android:text="Force"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="185dp" />
+
+        <CheckBox
+            android:id="@+id/FinalVelocity"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/text"
+            android:onClick="onCheckboxClicked"
+            android:text="Final Velocity"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="278dp" />
+
+        <CheckBox
+            android:id="@+id/Distance"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/text"
+            android:onClick="onCheckboxClicked"
+            android:text="Distance"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="246dp" />
+
+        <CheckBox
+            android:id="@+id/Mass"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/text"
+            android:onClick="onCheckboxClicked"
+            android:text="Mass"
+            android:textColor="@color/text"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="153dp" />
+
+        <CheckBox
+            android:id="@+id/Acceleration"
+            android:layout_width="181dp"
+            android:layout_height="29dp"
+            android:buttonTint="@color/text"
+            android:onClick="onCheckboxClicked"
+            android:text="Acceleration"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="217dp" />
+
+        <CheckBox
+            android:id="@+id/InitialVelocity"
+            android:layout_width="182dp"
+            android:layout_height="34dp"
+            android:buttonTint="@color/text"
+            android:onClick="onCheckboxClicked"
+            android:text="Initial Velocity"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="310dp" />
+
+        <CheckBox
+            android:id="@+id/Time"
+            android:layout_width="183dp"
+            android:layout_height="33dp"
+            android:buttonTint="@color/text"
+            android:onClick="onCheckboxClicked"
+            android:text="Time"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="317dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="293dp"
+            android:layout_height="49dp"
+            android:text="what are you looking for? "
+            android:textColor="@color/text"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="46dp"
+            tools:layout_editor_absoluteY="76dp" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
